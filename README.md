@@ -1,104 +1,142 @@
-# ERP BOM Data Validation & Release Analytics Dashboard (Simulated)
+# Manufacturing Operations & ERP BOM Analytics  
+### Engineering Data Integrity & Operational KPI Intelligence (Mock Dataset)
+
+---
 
 ## Overview
 
-This project simulates an ERP-based Bill of Materials (BOM) validation and revision control analysis process within a manufacturing release environment.
+This project demonstrates manufacturing operations analytics using a simulated ERP Bill of Materials (BOM) validation and revision control dataset.
 
-The objective is to demonstrate how structured product data discrepancies can be tracked, analyzed, and visualized to support operational decision-making and master data governance.
+The goal is to model structured engineering data discrepancies, analyze operational impact, and surface decision-ready KPIs that improve production data integrity and release quality.
 
-All data in this project is fully simulated for privacy and does not represent any real company systems or products.
+All data is fully simulated to protect employer confidentiality while reflecting realistic manufacturing workflows.
 
 ---
 
 ## Business Context
 
-In manufacturing environments, incorrect revisions, hierarchy issues, or missing parts within multi-level BOM structures can lead to:
+In high-volume manufacturing environments, ERP BOM errors and revision inconsistencies can lead to:
 
-- Production delays  
-- Rework  
-- Scrap cost  
-- ERP data inconsistencies  
+- Rework on the shop floor  
+- Delays in production release  
+- Incorrect configurations  
+- Increased operational cost  
+- Engineering change bottlenecks  
 
-This project models how a Data or Business Analyst can monitor structured ERP data to identify recurring configuration errors and improve release accuracy.
+This project simulates how a Manufacturing or Engineering Operations Analyst would monitor, analyze, and improve BOM data quality.
+
+---
+
+## Project Objectives
+
+- Identify trends in BOM errors over time  
+- Quantify rework rate and resolution efficiency  
+- Analyze cost impact of configuration discrepancies  
+- Track revision change activity  
+- Provide executive-level operational visibility  
+
+---
+
+## Dataset Structure
+
+The model is built on two primary simulated datasets:
+
+### 1️⃣ BOM_Error_Data
+Tracks structured ERP configuration issues.
+
+Key Fields:
+- Date  
+- Unit_ID  
+- Error_Type  
+- Stage_Detected  
+- Department_Origin  
+- Time_to_Resolve_Hours  
+- Rework_Required  
+- Estimated_Impact_Cost_USD  
+
+### 2️⃣ Revision_Change_Log
+Tracks revision updates across part configurations.
+
+Key Fields:
+- Date  
+- Unit_ID  
+- Part_Number  
+- Old_Revision  
+- New_Revision  
+- Change_Reason  
+- Rework_Required  
+
+---
+
+## Analytical KPIs
+
+The dashboard includes:
+
+- Total BOM Errors  
+- Rework Rate (%)  
+- Average Time to Resolve  
+- Estimated Cost Impact  
+- Monthly Error Trend  
+- Error Distribution by Stage  
+- Error Distribution by Department  
+- Revision Change Frequency  
+
+---
+
+## Key Analytical Questions Answered
+
+- Which error types contribute the highest cost impact?  
+- Which stages detect the most configuration issues?  
+- What is the monthly trend in BOM discrepancies?  
+- How often do revision changes trigger rework?  
+- Which departments contribute most to configuration risk?  
 
 ---
 
 ## Tools Used
 
 - Microsoft Excel  
-- Formula-driven KPI modeling  
-- COUNTIF / COUNTIFS aggregation  
-- Date-based trend grouping  
-- Native Excel charts  
-- Structured data validation logic  
-
-All charts are dynamically driven by formulas. No static images were used.
+  - PivotTables  
+  - Power Query  
+  - Structured Calculations  
+  - KPI Dashboards  
 
 ---
 
-## Key Features
+## Data Governance Features
 
-### KPI Dashboard
-- Total BOM Errors  
-- Rework Rate (%)  
-- Average Resolution Time (hrs)  
-- Total Estimated Cost Impact ($)  
-
-### Error Analysis
-- Error type distribution  
-- Detection stage breakdown  
-- Monthly error trend tracking  
-
-### Revision Change Log Simulation
-- Structured revision updates  
-- Change reason tracking  
-- Rework impact modeling  
+- Simulated structured ERP schema  
+- Controlled error categorization  
+- Cost impact modeling  
+- Resolution time tracking  
+- Rework indicator logic  
 
 ---
 
-## Analytical Approach
+## Why This Project Matters
 
-The dashboard uses:
+Manufacturing organizations depend on accurate ERP configuration data to maintain production stability.
 
-- COUNTIF and COUNTIFS for categorical aggregation  
-- Date range logic for monthly trend calculation  
-- Formula-driven KPI summarization  
-- Structured error classification modeling  
+This project demonstrates:
 
-The project simulates how ERP master data discrepancies can be quantified and tied to operational impact.
-
----
-
-## What This Demonstrates
-
-- ERP master data awareness  
-- Structured product data validation  
-- Operational analytics mindset  
-- Business impact framing  
-- Entry-level Data / Business Systems Analyst capability  
-
----
-
-## File Structure
-
-Engineering_Analytics_Final_Formula_Dashboard.xlsx  
-│  
-├── BOM_Error_Data (Simulated dataset)  
-├── Revision_Change_Log (Simulated revision updates)  
-├── Calc_Tables (Formula-driven summary logic)  
-└── Dashboard (Executive KPI visualization)
+- Structured operational analytics  
+- Manufacturing domain awareness  
+- KPI modeling for engineering workflows  
+- Data-driven process improvement  
 
 ---
 
 ## Future Enhancements
 
-- SQL-based version of the same analysis  
-- Power BI interactive dashboard version  
-- Automated error categorization logic  
-- Process improvement scenario modeling  
+- PostgreSQL data mart version  
+- Power BI executive dashboard  
+- Python automation for weekly KPI reporting  
+- Anomaly detection on error spikes  
 
 ---
 
-## Disclaimer
+## Author
 
-All data and metrics are simulated and created for portfolio demonstration purposes only.
+Yengkong Sayaovong  
+Manufacturing & Engineering Operations Analytics Focus  
+LinkedIn: https://www.linkedin.com/in/ysayaovong
