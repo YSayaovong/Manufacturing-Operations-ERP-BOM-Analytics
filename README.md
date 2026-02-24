@@ -1,20 +1,11 @@
-# Manufacturing Operations ERP/BOM Analytics — Corrected README
+# Manufacturing Operations ERP/BOM Analytics
 
 ## 1. Overview
 This project analyzes engineering and manufacturing BOM errors, revision activity, rework cost, and error resolution time using a realistic operations dataset modeled in Excel.
 
-Two dashboards are included:
-- Engineering Error Analysis Dashboard  
-- Revision Change Log Dashboard
-
 ---
 
-## 2. Dashboard Preview
-*(Already included in GitHub)*
-
----
-
-## 3. How to Use the Dashboard
+## 2. How to Use the Dashboard
 
 1. Open **Engineering_Analytics_Dashboard.xlsx**
 2. Go to the **Dashboard** tab
@@ -31,7 +22,7 @@ Two dashboards are included:
 
 ---
 
-## 4. Dataset Schema
+## 3. Dataset Schema
 
 ### BOM_Error_Data
 | Column | Description |
@@ -56,20 +47,11 @@ Two dashboards are included:
 
 ---
 
-## 5. Interview Talking Points
-
-- Built a realistic simulation of ERP BOM operational analytics.
-- Modeled KPI metrics used in manufacturing (rework cost, error frequency, resolution time).
-- Designed dashboards mirroring real engineering/manufacturing workflows.
-- Demonstrates Excel-based analytics exactly as used in most plants.
-
----
-
-## 6. Tools Used
+## 4. Tools Used
 - Excel  
 - Power Query  
 - PivotTables  
 - KPI dashboards  
 - Mock operational datasets  
 
----
+
