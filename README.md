@@ -177,3 +177,8 @@ Based on the above findings, the following actions are recommended:
 - **Require a secondary validation gate specifically for Error Correction revisions.** With 28 Error Correction change events logged and a 53% revision-wide rework rate, revisions made to fix existing problems must be validated before closure. The current process treats them no differently than routine design updates.
 
 - **Formally join `BOM_Error_Data` and `Revision_Change_Log` via Unit_ID and date proximity** in the next data model iteration. This linkage would enable direct root-cause attribution — connecting which revision events preceded which errors — and significantly deepen the analytical value of both datasets going forward.
+  
+---
+
+## Disclaimer
+This project was originally performed using internal Prolec-GE production data. The dataset has been replaced with a representative simulation to protect proprietary information. The analytical structure, KPIs, and methodology reflect the actual work performed.
