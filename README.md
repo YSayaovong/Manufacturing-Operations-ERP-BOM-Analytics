@@ -185,10 +185,6 @@ Based on the above findings, the following actions are recommended:
 
 - **Formally join `BOM_Error_Data` and `Revision_Change_Log` via Unit_ID and date proximity** in the next data model iteration. This linkage would enable direct root-cause attribution — connecting which revision events preceded which errors — and significantly deepen the analytical value of both datasets going forward.
 
----
-
-## Tools Used
-
 - Excel (data modeling and dashboard)
 - Power Query (ETL and data transformation)
 - PivotTables (aggregation and slicing)
