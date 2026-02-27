@@ -60,7 +60,6 @@ Estimated_Impact_Cost_USD (Float)
 
 BOM errors represent a measurable and addressable drag on manufacturing efficiency. Across H1 2025, the organization logged **120 total errors**, with **51.7% requiring rework**, incurring **$164,235 in estimated rework costs**, and averaging **3.09 hours to resolve** per incident.
 
-![KPI Summary](https://github.com/YSayaovong/Manufacturing-Operations-ERP-BOM-Analytics/blob/main/assets/KPI%20Summary.png?raw=true)
 
 | KPI | Value |
 |---|---|
