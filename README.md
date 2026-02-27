@@ -83,8 +83,6 @@ BOM errors represent a measurable and addressable drag on manufacturing efficien
 
 **Finding:** Wrong Revision leads in frequency at 30 incidents (25.0% of all errors), but Incorrect Metadata carries the highest total cost at $38,725 despite occurring only 25 times (20.8%).
 
-![Error Type Breakdown](https://github.com/YSayaovong/Manufacturing-Operations-ERP-BOM-Analytics/blob/main/assets/error_type.png?raw=true)
-
 | Error Type | Count | % of Total | Rework Events | Total Cost |
 |---|---|---|---|---|
 | Wrong Revision | 30 | 25.0% | 14 | $34,114 |
@@ -103,8 +101,6 @@ Incorrect Metadata errors average **$2,766 per rework event** — the highest of
 
 **Finding:** 39.2% of errors are caught at Pre-Release Review and 33.3% at SAP Load, meaning nearly three-quarters are intercepted before production. However, **33 errors — 27.5% — reach Manufacturing Review**, where correction disrupts active build schedules and carries the highest resolution cost.
 
-![Stage Detected Distribution](https://github.com/YSayaovong/Manufacturing-Operations-ERP-BOM-Analytics/blob/main/assets/stage_detected.png?raw=true)
-
 | Stage Detected | Error Count | % of Total |
 |---|---|---|
 | Pre-Release Review | 47 | 39.2% |
@@ -120,8 +116,6 @@ The goal should not simply be to catch more errors — it should be to catch the
 **Metric:** Monthly BOM Error Count, Jan–Jun 2025
 
 **Finding:** March 2025 recorded 33 errors — a **153.8% increase** over February's 13. The spike resolved in April (12 errors, -63.6%) but rebounded in May (23 errors, +91.7%), matching the January baseline. This oscillating pattern — not a clean recovery — suggests the underlying process is not yet stable.
-
-![Monthly Error Trend](https://github.com/YSayaovong/Manufacturing-Operations-ERP-BOM-Analytics/blob/main/assets/monthly_trend.png?raw=true)
 
 | Month | Error Count | MoM Change |
 |---|---|---|
